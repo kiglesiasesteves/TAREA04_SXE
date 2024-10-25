@@ -1,6 +1,15 @@
 
 # Tarea04
 
+## Índice
+
+1. [**Instalar LAMP**](#instalar-lamp)
+2. [**Descargar WordPress**](#descargar-wordpress)
+3. [**Configurar Apache para WordPress**](#configurar-apache-para-wordpress)
+4. [**Configurar Base de Datos**](#configurar-base-de-datos)
+5. [**Conectar WordPress a la Base de Datos**](#conectar-wordpress-a-la-base-de-datos)
+6. [**Configurar WordPress**](#configurar-wordpress)
+
 ## Utiliza la imagen de Ubuntu , tag 22 y apoyandote en esta guía sigue sus instrucciones para instalar LAMP en dicho contenedor. 
 
 **Descargamos la imagen de Ubuntu 22**
@@ -96,7 +105,7 @@ sudo apt install apache2 \
 
  ![alt text](img/image-5.png)
 
-**Extraemos el archivo .gz **
+**Extraemos el archivo .gz**
 ```
 
  tar zxvf latest.tar.gz -C /srv/www --strip-components=1
@@ -107,7 +116,7 @@ sudo apt install apache2 \
  chown -R www-data:www-data /srv/www
 ```
 
-** Para comprobar podemos ejecutar este comando: **
+**Para comprobar podemos ejecutar este comando:**
 
 ![alt text](img/image-6.png)
 
