@@ -201,5 +201,10 @@ Entramos en un buscador y colocamos nuestra ip para poder entrar en wordpress
 
 http://10.0.2.15:8000/wp_admin/install.php?language=en_US
 
+Se nos abrirá la interfaz de wordpress en el navegador y rellenamos nuestros datos conforme ya los habíamos puesto en la configuración del docker.
+
+![](img/imgPenultima.JPEG)
+
 Rellenamos nuestros datos elegidos y finalmente estamos dentro de WORDPRESS!!
 
+![](img/imgUltima.JPEG)
