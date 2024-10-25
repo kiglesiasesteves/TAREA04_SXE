@@ -7,7 +7,7 @@
 
 ![img.png](img/img.png)
 
-**Ejecutamos el contenedor con el siguiente comando:**
+** Ejecutamos el contenedor con el siguiente comando: **
 
 ```
 sudo docker run -d -it --name ubuntu-lamp ubuntu:22.04
@@ -16,7 +16,7 @@ sudo docker run -d -it --name ubuntu-lamp ubuntu:22.04
 
 ![img_1.png](img/img_1.png)
 
-**Para instalar LAMP en el contenedor, primero actualizamos el sistema con el siguiente comando:**
+** Para instalar LAMP en el contenedor, primero actualizamos el sistema con el siguiente comando: **
 
 ```
  apt update
